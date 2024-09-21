@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-tomorrow.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+<link rel="stylesheet" href="./doc_style.css">
+  </head>
+  <body>
+    <nav>
+      <div class="container text-end my-3 d-flex justify-content-between">
+        <div>
+        <a href="./index.html" style="color: #ffff; "><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#FFFFFF"><path d="M226.67-186.67h140v-246.66h226.66v246.66h140v-380L480-756.67l-253.33 190v380ZM160-120v-480l320-240 320 240v480H526.67v-246.67h-93.34V-120H160Zm320-352Z"/></svg>
+      </a>  
+      </div>
+        <div>
+        <label for="themeToggle" class="form-label">Light/Dark Mode</label>
+        <input type="checkbox" id="themeToggle" class="form-check-input" />
+      </div>
+      </div>
+    </nav>
+    <div class="Cont_Aniket container-xxl">
+      <div>
+        <ul>
+          <h3>Tutorials</h3>
+          <li><a href="./Doc.html">Introduction</a></li>
+          <li><a href="./veriable.html">Variables</a></li>
+          <li><a href="./Array.html">Array</a></li>
+          <li><a href="./String.html">String</a></li>
+          <li><a href="Conditional.html">Conditional Operator</a></li>
+          <li><a href="loop.html">Loop</a></li>
+          <li><a href="./int_fun.html">Intrger Functions</a></li>
+          <li><a href="./highorde.html">Higher Order Functions</a></li>
+          <li><a href="./sp.html">Special Functions</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Introduction</h2>
+        <br />
+        <p>
+          VisionScript Language is a fun, intuitive, and beginner-friendly programming
+          language designed to simplify coding concepts while making learning
+          engaging and enjoyable. It's inspired by real-world expressions and is
+          built to bring a conversational style to programming. VisionScript Language
+          blends elements from popular languages like JavaScript and Python,
+          combining their best features with unique syntax and functionality
+          tailored to make programming accessible to everyone—from complete
+          beginners to seasoned developers.
+        </p>
+        <div class="syntax-box">
+          <div class="syntax-header">
+            VisionScript
+            <div>
+              <button class="copy-button" onclick="copyCode(this)">Copy</button>
+              <span class="Run_Aniket"><a href="editor.html">Try Yourself</a></span>
+            </div>
+          </div>
+          <pre><code class="language-javascript">
+blo count = 10;
+if (count > 5) {
+blo message = "Count is greater than 5";
+console.log(message);  // Output: Count is greater than 5
+}
+console.log(message);  // Error: message is not defined (because it's block-scoped)
+            
+                </code></pre>
+        </div>
+        <div>
+          <h4>Key Features of VisionScript Language</h4>
+          <br />
+          <p>
+            Readable Syntax: VisionScript Language uses a syntax that is easy to
+            understand and remember. It emphasizes natural language-like
+            commands, making it approachable for those new to programming.
+          </p>
+          <p>
+            Flexible Data Types: The language supports a variety of data types,
+            including numbers, strings, arrays, objects, and more, allowing
+            users to handle a wide range of programming tasks.
+          </p>
+          <p>
+            Simple Control Structures: With a straightforward implementation of
+            control structures like loops (for, while), conditionals (if, else),
+            and operators, VisionScript Language makes it easy to write logic for any
+            application
+          </p>
+          <p>
+            Customizable Functions: Users can create custom functions using
+            familiar syntax to encapsulate reusable logic, promoting clean and
+            organized code.
+          </p>
+          <p>
+            Built-in Polyfills and Helpers: VisionScript Language comes with a rich set
+            of polyfills and helper functions, making it powerful yet easy to
+            use. Examples include visionscriptEvery, visionscriptConcat, visionscriptIncludes, and more,
+            which mirror the functionality of JavaScript methods with a twist.
+          </p>
+          <p>
+            Interactive Programming Style: The language encourages interactive
+            and exploratory programming, making it suitable for educational
+            purposes and live coding demonstrations.
+          </p>
+          <p>
+            Community and Fun: VisionScript Language fosters a sense of community and
+            fun, encouraging collaboration, creativity, and a light-hearted
+            approach to coding. It is perfect for those who want to learn
+            programming with a smile.
+          </p>
+        </div>
+        <br />
+        <br />
+        <div>
+          <h3>Why Learn VisionScript Language?</h3>
+          <br />
+          <div>
+            <p>
+              Beginner-Friendly: The language is perfect for beginners who want
+              to start coding without the steep learning curve associated with
+              more complex languages
+            </p>
+            <p>
+              Quick Prototyping: Its simple syntax and powerful built-in
+              functions allow for rapid prototyping and quick development of
+              small projects or scripts.
+            </p>
+            <p>
+              Educational Use: visionScript Language is an excellent tool for teaching
+              programming fundamentals in a way that is engaging and less
+              intimidating for new learners.
+            </p>
+            <p>
+              Bridging the Gap: For those familiar with other languages like
+              JavaScript or Python, VisionScript Language offers a fresh perspective
+              while retaining many familiar concepts, making it easy to pick up
+              and enjoy.
+            </p>
+            <p>
+              Creative Expression: Beyond conventional programming tasks, VisionScript
+              Language is designed to encourage creative expression through
+              code, making it ideal for art, games, and interactive
+              storytelling.
+            </p>
+          </div>
+          <div><h4>Getting Started with VisionScript Language</h4>
+            <br>
+            <p>To begin programming in VisionScript Language, you need a basic understanding of fundamental concepts
+                such as variables, data types, and control structures. Here’s a simple "Hello, VisionScript!" program to get
+                you started:</p>
+                <div class="syntax-box">
+                    <div class="syntax-header">
+                      VisionScript
+                      <div>
+                        <button class="copy-button" onclick="copyCode(this)">Copy</button>
+                        <span class="Run_Aniket"><a href="editor.html">Try Yourself</a></span>
+                      </div>
+                    </div>
+                    <pre><code class="language-javascript">
+glo user = "Alice";
+function greet() {
+    console.log("Hello, " + user);  // Output: Hello, Alice
+}
+greet();
+user = "Bob";
+greet();  // Output: Hello, Bob
+
+                          </code></pre>
+                  </div>
+                  <div>
+                    <h4>Conclusion</h4>
+                    <br>
+                    <p>VisionScript Language is not just a programming language; it's a community-driven movement to make
+                        coding fun, accessible, and less daunting. Whether you're a beginner or an experienced programmer
+                        looking for a light-hearted coding experience, VisionScript Language offers a refreshing approach to writing
+                        and learning code. Jump in and start exploring the world of VisionScript Language today!
+                        Feel free to modify this introduction to align more closely with your specific vision and goals for VisionScript
+                        Language!</p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function copyCode(button) {
+        const codeBlock = button
+          .closest(".syntax-box")
+          .querySelector("code").innerText;
+        navigator.clipboard
+          .writeText(codeBlock)
+          .then(() => {
+            button.innerText = "Copied!";
+            setTimeout(() => {
+              button.innerText = "Copy";
+            }, 2000);
+          })
+          .catch((err) => {
+            console.error("Failed to copy text: ", err);
+          });
+      }
+
+      const toggleSwitch = document.getElementById("themeToggle");
+
+      document.addEventListener("DOMContentLoaded", (event) => {
+        const darkMode = localStorage.getItem("dark-mode");
+        if (darkMode === "enabled") {
+          document.body.classList.add("dark-mode");
+          toggleSwitch.checked = true;
+        } else {
+          document.body.classList.remove("dark-mode");
+        }
+      });
+
+      toggleSwitch.addEventListener("change", function () {
+        if (this.checked) {
+          document.body.classList.add("dark-mode");
+          localStorage.setItem("dark-mode", "enabled");
+        } else {
+          document.body.classList.remove("dark-mode");
+          localStorage.setItem("dark-mode", "disabled");
+        }
+      });
+    </script>
+  </body>
+</html>
